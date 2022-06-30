@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import JoditEditor from "jodit-react";
 
 const config = {
-    buttons: ["bold", "italic", "link", "unlink", "underline", "source"],
+    buttons: ["bold", "italic", "link", "unlink", "underline", "source","hint"],
 };
 
 const RichTextEditor = ({ initialValue, getValue }) => {
